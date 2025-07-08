@@ -16,7 +16,7 @@
       rel="stylesheet" />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -143,7 +143,93 @@
         </div>
       </section>
       <!--==================== POPULAR ====================-->
-      <section class="section" id="popular"></section>
+      <section class="section" id="popular">
+        <div class="container">
+          <span class="section__subtitle">Meilleur Choix</span>
+          <h2 class="section__title">Résidences Populaires<span>.</span></h2>
+
+          <div class="popular__container grid swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular1.jpg"
+                  alt="Résidence populaire 1"
+                  class="popular__img" />
+                <div class="popular__data">
+                  <h2 class="popular__price">466 356 <span>€</span></h2>
+                  <h3 class="popular__title">Résidence Bellecour</h3>
+                  <p class="popular__description">
+                    12 Rue des Tilleuls, Quartier Bellecour, Lyon 69002
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular2.jpg"
+                  alt="Résidence populaire 2"
+                  class="popular__img" />
+                <div class="popular__data">
+                  <h2 class="popular__price">335 159 <span>€</span></h2>
+                  <h3 class="popular__title">Les Terrasses de Marnay</h3>
+                  <p class="popular__description">
+                    5 Allée des Vignes, Marnay-sur-Seine, 10400
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular3.jpg"
+                  alt="Résidence populaire 3"
+                  class="popular__img" />
+                <div class="popular__data">
+                  <h2 class="popular__price">575 043 <span>€</span></h2>
+                  <h3 class="popular__title">Le Clos d’Aubrac</h3>
+                  <p class="popular__description">
+                    38 Route de l’Aubrac, Saint-Chély-d’Aubrac, 12470
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular4.jpg"
+                  alt="Résidence populaire 4"
+                  class="popular__img" />
+                <div class="popular__data">
+                  <h2 class="popular__price">662 024 <span>€</span></h2>
+                  <h3 class="popular__title">Villa Montmirail</h3>
+                  <p class="popular__description">
+                    7 Rue du Château, Montmirail, 51210
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular5.jpg"
+                  alt="Résidence populaire 5"
+                  class="popular__img" />
+                <div class="popular__data">
+                  <h2 class="popular__price">847 043 <span>€</span></h2>
+                  <h3 class="popular__title">Domaine Côte d'Émeraude</h3>
+                  <p class="popular__description">
+                    24 Promenade des Dunes, Dinard, 35800
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="bx bx-chevron-left"></i>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--==================== VALUE ====================-->
       <section class="value section" id="value"></section>
@@ -164,7 +250,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
